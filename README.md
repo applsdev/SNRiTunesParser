@@ -9,7 +9,7 @@ It helped me learn more about libxml2, SAX style parsing, and other various bits
 
 **NOTE: Once again, I DO NOT recommend using this code in your projects. NSDictionary is as fast or faster in every case I've tested. This is for educational purposes only.**
 
-## Adding SNRiTunesParser to your project
+## Adding SNRiTunesParser to your project (in case you want to try it out/benchmark it)
 
 1. Link against `libxml2.dylib`.
 2. Add `$(SDKROOT)/usr/include/libxml2` to the `Header Search Paths` in Project Settings
