@@ -7,6 +7,8 @@ It helped me learn more about libxml2, SAX style parsing, and other various bits
 - Should be compiled with ARC. That said, it would be easy to add a few lines of memory management code here and there and use it without ARC because the entire project (aside from the API) is written in C
 - Parses everything that's present in the iTunes library XML file, including songs, videos, and playlists. Does not parse apps or ebooks.
 
+**NOTE: Once again, I DO NOT recommend using this code in your projects. NSDictionary is as fast or faster in every case I've tested. This is for educational purposes only.**
+
 ## Adding SNRiTunesParser to your project
 
 1. Link against `libxml2.dylib`.
